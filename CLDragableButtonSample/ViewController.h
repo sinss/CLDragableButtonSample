@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KLDragableButton.h"
 
 @interface ViewController : UIViewController
 
+@property (nonatomic,weak) IBOutlet KLDragableButton *dragableButton;
 
 @end
 

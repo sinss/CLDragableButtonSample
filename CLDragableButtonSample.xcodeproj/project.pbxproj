@@ -14,6 +14,7 @@
 		B348903F1BA669A50023C865 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B348903E1BA669A50023C865 /* Images.xcassets */; };
 		B34890421BA669A50023C865 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B34890401BA669A50023C865 /* LaunchScreen.xib */; };
 		B348904E1BA669A50023C865 /* CLDragableButtonSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B348904D1BA669A50023C865 /* CLDragableButtonSampleTests.m */; };
+		B348905A1BA669D00023C865 /* KLDragableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B34890591BA669D00023C865 /* KLDragableButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B34890471BA669A50023C865 /* CLDragableButtonSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLDragableButtonSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B348904C1BA669A50023C865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B348904D1BA669A50023C865 /* CLDragableButtonSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLDragableButtonSampleTests.m; sourceTree = "<group>"; };
+		B34890581BA669D00023C865 /* KLDragableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLDragableButton.h; sourceTree = "<group>"; };
+		B34890591BA669D00023C865 /* KLDragableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLDragableButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		B34890301BA669A50023C865 /* CLDragableButtonSample */ = {
 			isa = PBXGroup;
 			children = (
+				B34890571BA669D00023C865 /* Classes */,
 				B34890351BA669A50023C865 /* AppDelegate.h */,
 				B34890361BA669A50023C865 /* AppDelegate.m */,
 				B34890381BA669A50023C865 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				B348904C1BA669A50023C865 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B34890571BA669D00023C865 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B34890581BA669D00023C865 /* KLDragableButton.h */,
+				B34890591BA669D00023C865 /* KLDragableButton.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				B348903A1BA669A50023C865 /* ViewController.m in Sources */,
 				B34890371BA669A50023C865 /* AppDelegate.m in Sources */,
+				B348905A1BA669D00023C865 /* KLDragableButton.m in Sources */,
 				B34890341BA669A50023C865 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
